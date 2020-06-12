@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RuningApp</string>
+    <string name="access_token" translatable="false">pk.eyJ1IjoicmV6YTI3IiwiYSI6ImNrYjhxanUyZzA2cnkzNWw2NzcweTQ0ZGwifQ.tJHuBPLmvFjuwxLD5D5vWg</string>
+    <string name="start_navigating">Start Navigating</string>
+</resources>
