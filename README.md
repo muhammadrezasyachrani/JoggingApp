@@ -1,1 +1,1 @@
-# Joggin gApp
+# Jogging App
