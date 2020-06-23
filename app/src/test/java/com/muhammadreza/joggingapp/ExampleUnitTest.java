@@ -1,4 +1,4 @@
-package com.muhammadrezasyachrani.runingapp;
+package com.muhammadreza.joggingapp;
 
 import org.junit.Test;
 
