@@ -31,7 +31,6 @@ public class SessionHistoryDetail extends AppCompatActivity implements OnMapRead
         showsessionnamev = (TextView) (findViewById(R.id.showsessionnametv));
         showtotaltimetv = (TextView) (findViewById(R.id.showtotaltimetv));
         showdatetv = (TextView) (findViewById(R.id.showdatetv));
-        showcaloriestv = (TextView) (findViewById(R.id.showcaloriestv));
         showdistancetv = (TextView) (findViewById(R.id.showdistancetv));
         headsessionnametv = (TextView) (findViewById(R.id.headsessionnametv));
 
@@ -40,13 +39,11 @@ public class SessionHistoryDetail extends AppCompatActivity implements OnMapRead
         String sessionname = getIntent().getStringExtra("sessionname");
         String totaltime = getIntent().getStringExtra("totaltime");
         String date = getIntent().getStringExtra("date");
-        String calories = getIntent().getStringExtra("calories");
         String distance = getIntent().getStringExtra("distance");
 
         showsessionnamev.setText(sessionname);
         showdatetv.setText(date);
         showtotaltimetv.setText(totaltime);
-        showcaloriestv.setText(calories+" cal");
         showdistancetv.setText(distance+" km");
 
         headsessionnametv.setText(sessionname);

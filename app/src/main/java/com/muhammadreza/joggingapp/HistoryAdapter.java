@@ -56,7 +56,6 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHo
         final sessionClass obj = alSessionHistoty.get(position);
         sessionnametv.setText(""+obj.getSessionname());
         totaltimetv.setText(obj.getTotaltime()+"");
-        caloriestv.setText(obj.getCalories()+" cal");
 
 
         localcardview.setOnClickListener(new View.OnClickListener() {
@@ -68,7 +67,6 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHo
                 in.putExtra("sessionname",obj.getSessionname()+"");
                 in.putExtra("totaltime",obj.getTotaltime()+"");
                 in.putExtra("date",obj.getDate()+"");
-                in.putExtra("calories",obj.getCalories()+"");
                 in.putExtra("distance",obj.getKilometers()+"");
 
                 myContext.startActivity(in);

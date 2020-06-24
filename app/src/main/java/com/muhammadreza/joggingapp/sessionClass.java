@@ -6,21 +6,14 @@ public class sessionClass {
     private String sessionname;
     private String totaltime;
     private String kilometers;
-    private String calories;
     private String date;
     private String starttime;
 
-    public sessionClass()
-    {
-
-    }
-
-    public sessionClass(int sessionid, String sessionname, String totaltime, String kilometers, String calories, String date) {
+    public sessionClass(int sessionid, String sessionname, String totaltime, String kilometers, String date) {
         this.sessionid = sessionid;
         this.sessionname = sessionname;
         this.totaltime = totaltime;
         this.kilometers = kilometers;
-        this.calories = calories;
         this.date = date;
     }
 
@@ -38,10 +31,6 @@ public class sessionClass {
 
     public String getKilometers() {
         return kilometers;
-    }
-
-    public String getCalories() {
-        return calories;
     }
 
     public String getDate() {
@@ -62,10 +51,6 @@ public class sessionClass {
 
     public void setKilometers(String kilometers) {
         this.kilometers = kilometers;
-    }
-
-    public void setCalories(String calories) {
-        this.calories = calories;
     }
 
     public void setDate(String date) {

@@ -46,7 +46,7 @@ public class SessionHistory extends AppCompatActivity {
 
         try {
             db = openOrCreateDatabase("FitDb", MODE_PRIVATE, null);
-            db.execSQL("create table if not exists session (sessionid INTEGER PRIMARY KEY AUTOINCREMENT,sessionname VARCHAR(45),totaltime VARCHAR(45),kilometers VARCHAR(45),calories VARCHAR(45),date VARCHAR(45))");
+            db.execSQL("create table if not exists session (sessionid INTEGER PRIMARY KEY AUTOINCREMENT,sessionname VARCHAR(45),totaltime VARCHAR(45),kilometers VARCHAR(45),date VARCHAR(45))");
             db.execSQL("create table if not exists sessiondata (sessiondataid INTEGER PRIMARY KEY AUTOINCREMENT,sessionid INTEGER,latitude VARCHAR(45),longitude VARCHAR(45))");
 
         } catch (Exception ae) {
@@ -74,9 +74,8 @@ public class SessionHistory extends AppCompatActivity {
             String name = c.getString(c.getColumnIndex("sessionname"));
             String totaltime = c.getString(c.getColumnIndex("totaltime"));
             String kilometers = c.getString(c.getColumnIndex("kilometers"));
-            String calories = c.getString(c.getColumnIndex("calories"));
             String date = c.getString(c.getColumnIndex("date"));
-            sessionClass obj = new sessionClass(sessionid, name, totaltime, kilometers, calories, date);
+            sessionClass obj = new sessionClass(sessionid, name, totaltime, kilometers, date);
             alSessionHistoty.add(obj);
         }
         myad.notifyDataSetChanged();

@@ -36,7 +36,7 @@ public class Track extends AppCompatActivity implements OnMapReadyCallback {
     private Location loc;
     private LocalBroadcastManager lbm;
     private boolean flag = false;
-    private TextView locationinfo, trackkmtv, tracktimetv, trackkmcalories;
+    private TextView locationinfo, trackkmtv, tracktimetv;
     private updatebroadcast ubc;
     private Button serviceStartStopBtn;
     myloclistener loclistener;
@@ -49,7 +49,6 @@ public class Track extends AppCompatActivity implements OnMapReadyCallback {
         serviceStartStopBtn = (Button) (findViewById(R.id.serviceStartStopBtn));
         trackkmtv = (TextView) (findViewById(R.id.trackkmtv));
         tracktimetv = (TextView) (findViewById(R.id.tracktimetv));
-        trackkmcalories = (TextView) (findViewById(R.id.trackkmcalories));
         locationinfo = (TextView) findViewById(R.id.locationinfo);
 
 
@@ -190,7 +189,6 @@ public class Track extends AppCompatActivity implements OnMapReadyCallback {
 
                 String km = intent.getStringExtra("km");
                 String time = intent.getStringExtra("time");
-                String cal = intent.getStringExtra("cal");
 
                 if (!km.equals("no")) {
                     trackkmtv.setText(km + " km");
@@ -203,9 +201,6 @@ public class Track extends AppCompatActivity implements OnMapReadyCallback {
 
                     tracktimetv.setText(("0" + minutes).substring(("0" + minutes).length() - 2) + " : " + ("0" + seconds).substring(("0" + seconds).length() - 2));
                 }
-                if (!cal.equals("no")) {
-                    trackkmcalories.setText(cal + " cal");
-                }
             }
         }
     }
@@ -215,7 +210,7 @@ public class Track extends AppCompatActivity implements OnMapReadyCallback {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == 88) {
             String sessionname = data.getStringExtra("sessionname");
-            locationinfo.setText("Session Name " + sessionname);
+            locationinfo.setText(sessionname);
             Intent servicein = new Intent(getApplicationContext(), MyTrackingService.class);
             servicein.putExtra("sessionname", sessionname);
             startService(servicein);

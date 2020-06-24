@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#d9d4d4"
-            android:text="Name"
+            android:text="@string/name"
             android:textAlignment="center"
             android:textSize="24dp"
             android:padding="10dp"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
 
-                android:text="Session Name " />
+                android:text="@string/session_name" />
 
             <TextView
                 android:id="@+id/showsessionnametv"
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:textColor="#000000"
-                android:text="value" />
+                android:text="@string/value" />
 
         </LinearLayout>
 
@@ -84,7 +84,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
-                android:text="Total Time " />
+                android:text="@string/total_time" />
 
             <TextView
                 android:id="@+id/showtotaltimetv"
@@ -92,38 +92,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:layout_weight="4"
-                android:text="value" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_margin="10dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/borderbottom"
-            android:orientation="horizontal"
-            android:weightSum="10">
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="2"
-                android:src="@drawable/calimg" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:text="Calories " />
-
-            <TextView
-                android:id="@+id/showcaloriestv"
-                android:layout_width="0dp"
-                android:textColor="#000000"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:text="value" />
+                android:text="@string/value" />
         </LinearLayout>
 
         <LinearLayout
@@ -146,7 +115,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
-                android:text="Date " />
+                android:text="@string/date" />
 
             <TextView
                 android:id="@+id/showdatetv"
@@ -154,7 +123,7 @@
                 android:textColor="#000000"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
-                android:text="value" />
+                android:text="@string/value" />
         </LinearLayout>
 
         <LinearLayout
@@ -177,7 +146,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
-                android:text="Distance " />
+                android:text="@string/distance" />
 
             <TextView
                 android:id="@+id/showdistancetv"
@@ -185,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
                 android:layout_weight="4"
-                android:text="value" />
+                android:text="@string/value" />
         </LinearLayout>
 
 

@@ -17,7 +17,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:text="START TRACKING"
+            android:text="@string/Start_tracking"
             android:layout_margin="0dp"
             android:background="#E64A19"
             android:textColor="#ffffff"

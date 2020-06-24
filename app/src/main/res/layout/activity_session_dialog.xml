@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter SessionName"
+        android:text="@string/enter_session_name"
         android:textColor="#363535"
         android:textSize="20dp" />
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textColor="#666363"
-        android:hint="Enter Session Name" />
+        android:hint="@string/enter_session_name" />
 
     <Button
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         android:background="#b63810"
         android:textColor="#fff"
         android:onClick="startsessiondialogbt"
-        android:text="START" />
+        android:text="@string/start" />
 
 
 </LinearLayout>

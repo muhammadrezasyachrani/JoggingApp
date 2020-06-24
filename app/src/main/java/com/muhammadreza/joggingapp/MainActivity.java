@@ -62,8 +62,12 @@ public class MainActivity extends AppCompatActivity {
 
                                 if (menuItem.getItemId() == R.id.action_history) {
                                     startActivity(new Intent(getApplicationContext(), SessionHistory.class));
-                                } else if (menuItem.getItemId() == R.id.action_aboutapp) {
-                                    startActivity(new Intent(getApplicationContext(), AboutAppDialog.class));
+                                } else if (menuItem.getItemId() == R.id.action_exit) {
+                                    Intent intent = new Intent(Intent.ACTION_MAIN);
+                                    intent.addCategory(Intent.CATEGORY_HOME);
+                                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
                                 }
 
 

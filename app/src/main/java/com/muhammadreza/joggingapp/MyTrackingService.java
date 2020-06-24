@@ -165,11 +165,7 @@ public class MyTrackingService extends Service {
                 in.putExtra("km", "no");
                 milisec = milisec + 1000;
                 if (milisec / 1000 == seccal) {
-                    calories++;
                     seccal = seccal + 6;
-                    in.putExtra("cal", calories + "");
-                } else {
-                    in.putExtra("cal", "no");
                 }
                 lbm.sendBroadcast(in);
                 long millis = milisec;

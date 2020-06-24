@@ -47,9 +47,6 @@
             android:theme="@style/NoTitleDialog" />
         <activity android:name=".SessionHistory" />
         <activity android:name=".SessionHistoryDetail" />
-        <activity android:name=".AboutAppDialog"
-            android:theme="@style/NoTitleDialog"
-            ></activity>
     </application>
 
 </manifest>
