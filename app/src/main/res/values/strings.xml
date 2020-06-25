@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">JoggingApp</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="gps_network_not_enabled">GPS and NETWORK not Enabled</string>
+    <string name="open_location_setting">Open Location Setting</string>
+    <string name="MY_PERMISSIONS_REQUEST_READ_CONTACTS">80</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="drawer_close"></string>
+    <string name="drawer_open"></string>
+    <string name="enter_session_name">Enter Session Name</string>
+    <string name="start">START</string>
+    <string name="name">Name</string>
+    <string name="session_name">Session Name</string>
+    <string name="value">value</string>
+    <string name="total_time">Total Time</string>
+    <string name="date">Date</string>
+    <string name="distance">Distance</string>
+    <string name="time">Time</string>
+    <string name="km">Km</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="Start_tracking">START TRACKING</string>
+
+</resources>
