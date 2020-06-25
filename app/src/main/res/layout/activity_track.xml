@@ -64,11 +64,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:background="#9e3312"
+            android:background="#E88100"
             android:elevation="4dp"
             android:onClick="track"
             android:padding="20dp"
-            android:text="@string/start_tracking"
+            android:text="@string/Start_tracking"
             android:textColor="#ffffff"
             android:textSize="20dp" />
     </FrameLayout>

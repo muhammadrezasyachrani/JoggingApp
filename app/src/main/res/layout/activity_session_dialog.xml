@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="#b63810"
+        android:background="@android:color/holo_orange_dark"
         android:textColor="#fff"
         android:onClick="startsessiondialogbt"
         android:text="@string/start" />

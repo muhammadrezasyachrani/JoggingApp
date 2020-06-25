@@ -43,7 +43,7 @@
             <android.support.design.widget.TabLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#E64A19"
+                android:background="#E88100"
                 android:id="@+id/tabs"
                 >
             </android.support.design.widget.TabLayout>

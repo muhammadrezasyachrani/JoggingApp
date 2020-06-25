@@ -17,9 +17,9 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:text="@string/Start_tracking"
+            android:text="@string/jogging"
             android:layout_margin="0dp"
-            android:background="#E64A19"
+            android:background="#E88100"
             android:textColor="#ffffff"
             android:id="@+id/starttracting"
             />
