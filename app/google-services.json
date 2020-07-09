@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323025218092",
+    "firebase_url": "https://sisbar.firebaseio.com",
+    "project_id": "sisbar",
+    "storage_bucket": "sisbar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323025218092:android:11f5198b8cc17b57a6ff89",
+        "android_client_info": {
+          "package_name": "com.muhammadreza.joggingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323025218092-0as8ssgisf4s4obthvuljtg83i7aptef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muhammadreza.joggingapp",
+            "certificate_hash": "b67f68d1cf51947e9a02dcb36da85dea203daf11"
+          }
+        },
+        {
+          "client_id": "323025218092-iq5umv75bq4s012gp2lt6dohc7p4r5co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5FCJKITZ2HMNyNLu9rH6grbjUDrsbQWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323025218092-iq5umv75bq4s012gp2lt6dohc7p4r5co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
