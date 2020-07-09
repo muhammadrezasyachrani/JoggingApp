@@ -47,8 +47,7 @@ public class SessionHistoryDetail extends AppCompatActivity implements OnMapRead
         showdistancetv.setText(distance+" km");
 
         headsessionnametv.setText(sessionname);
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
         setUpDataBase();
